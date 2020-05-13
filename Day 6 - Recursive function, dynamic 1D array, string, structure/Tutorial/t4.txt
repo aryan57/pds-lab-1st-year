@@ -1,0 +1,14 @@
+1. nCr for all r using recursion.
+2. Uppercase conversion: Write a function toUpper(...) that converts an input string S (of length at most 100) to another string T (of same length) made of the uppercase characters corresponding to the characters in S. (Here a string may contain any keyboard character including whitespace.
+     
+Example
+
+
+Enter string s:	Mr. & Mrs. Singh,  Delhi    102030	
+In uppercase:	MR. & MRS. SINGH,  DELHI    102030	
+
+
+
+
+3. How to swap? Swap two values against two variables using pointer.
+4. Word search in a dynamically allocated array: Declare a pointer to an array a[] of n tuples, each tuple having a roll number (int) and a name (20 chars max). Take the value of n as input and allocate the space for a[]. Fill up a[]. Search for a name (input) in a[] and print the result.

@@ -1,0 +1,17 @@
+p4c
+Dynamic memory allocation for 1D array and function usage
+Declare an integer n and an integer pointer a.
+Take the value of n as input and dynamically allocate the space for n integers pointed by a.
+Fill up the array a[] using input from the user.
+Write a function f that takes an integer array a[] and and an integer n as input,
+and reverses the n elements of a[].
+Call f from main() and print the array a.
+
+Examples:
+Enter n: 5
+Enter the elements: 3 8 4 6 7
+After reversal:     7 6 4 8 3
+
+Enter n: 6
+Enter the elements: 5 8 3 1 6 2
+After reversal:     2 6 1 3 8 5

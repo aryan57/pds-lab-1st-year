@@ -1,0 +1,57 @@
+p4b
+Numbers with a given sum of digits using recursive function
+User gives a positive integer n (1 to 10) as input.
+Your program should print all the numbers made of the digits 1 and 2 such that the sum of the digits is n.
+It should also print the total number of such numbers at the end.
+Use recursive functions and a global variable to keep track of the total.
+
+Examples:
+$ ./a.out      
+Enter n: 3
+21
+12
+111
+---------------
+Total = 3
+---------------
+$ ./a.out
+Enter n: 4
+22
+211
+121
+112
+1111
+---------------
+Total = 5
+---------------
+$ ./a.out
+Enter n: 5
+221
+212
+2111
+122
+1211
+1121
+1112
+11111
+---------------
+Total = 8
+---------------
+$ ./a.out
+Enter n: 6
+222
+2211
+2121
+2112
+21111
+1221
+1212
+12111
+1122
+11211
+11121
+11112
+111111
+---------------
+Total = 13
+---------------

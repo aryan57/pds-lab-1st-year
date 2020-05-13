@@ -1,0 +1,26 @@
+p4d
+Linear search in a dynamically allocated array of structure
+Define record as typedef struct with char roll[10], subject[5], class[3].
+Declare and dynamically allocate an array of n records with the value of n as input.
+Fill up the array with input from roll4.txt.
+Print the records whose subject is "NLP" and those with subject "THY".
+
+Example:
+./a.out < roll4.txt
+
+Code NLP:
+14CS10019 NLP B3
+14CS10055 NLP B3
+14CS10058 NLP B3
+14CS10059 NLP B3
+14CS30013 NLP B3
+
+Code THY:
+14CS10016 THY B6
+14CS10034 THY B6
+14CS10040 THY B6
+14CS10042 THY B6
+14CS10044 THY B6
+14CS30008 THY B6
+14CS30012 THY B6
+

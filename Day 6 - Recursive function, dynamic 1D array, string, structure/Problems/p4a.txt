@@ -1,0 +1,11 @@
+p4a
+Compute 1!+2!+3!+...+i! for i=1 to n without recursive function
+User gives a positive integer, n, as input.
+Assume that n is at most 12.
+Compute 1!+2!+3!+...+i! for i=1 to n without any recursive function and print them on the terminal.
+
+Examples:
+Enter n: 6
+1 3 9 33 153 873
+Enter n: 10
+1 3 9 33 153 873 5913 46233 409113 4037913
