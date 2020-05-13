@@ -1,0 +1,16 @@
+5-Nov-2019 | PDS Lab | Sec 18 | Autumn 2019-20
+
+Linked list, stack, queue
+
+=================================================================================================
+TUTORIAL
+
+t7a. Insert at head.
+User supplies integer values one by one, each of which should be inserted at the head of a linked list.
+Once all insertions are over, print all its elements on the terminal.
+
+t7b. Insert in order.
+User supplies integer values one by one, which should be inserted in a linked list in non-decreasing order.
+Once all insertions are over, print all its elements on the terminal.
+
+================================================================================================

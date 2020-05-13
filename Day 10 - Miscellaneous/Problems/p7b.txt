@@ -1,0 +1,114 @@
+p7b
+Insert student records in order
+
+Define a structure named "student" with the following fields: char name[15], char surname[15], and float cgpa (as in p6a.c). Read from main() the student records from an input text file ("stu1.txt" or "stu2.txt").
+
+In that file, the number of students is not mentioned; instead, the end of records is marked by "$". Insert the records in a linked list L in non-increasing order of cgpa. Once all the insertions are over, print all its records of L on the terminal.
+
+Examples
+
+./a.out < stu1.txt
+
+Inserted records:
+ 1: A. Panigrahi       9.83
+ 2: A. Suri            9.09
+ 3: A. Jain            8.92
+ 4: A. Jain            8.54
+ 5: K. Reddy           7.04
+
+./a.out < stu2.txt 
+
+Inserted records:
+ 1: A. Panigrahi       9.83
+ 2: A. Ghoshal         9.76
+ 3: K. Aggarwal        9.66
+ 4: M. Sengupta        9.62
+ 5: B. Anurag          9.62
+ 6: R. Dutt            9.60
+ 7: S. Mundra          9.56
+ 8: A. Banerjee        9.53
+ 9: V. Shah            9.53
+10: Y. Agrawal         9.52
+11: G. Sastry          9.48
+12: S. Ghosh           9.47
+13: M. Roy             9.42
+14: M. Tharun          9.42
+15: K. Raj             9.42
+16: S. Bhat            9.41
+17: S. Srivastava      9.40
+18: S. Pal             9.38
+19: D. Agrawal         9.35
+20: S. Patro           9.31
+21: P. Shankhdhar      9.30
+22: S. Mandal          9.25
+23: Y. Manisha         9.22
+24: A. Srivastava      9.21
+25: K. Goel            9.17
+26: S. Rishi           9.16
+27: S. Kumar           9.12
+28: R. Bhaskaran       9.10
+29: P. Chanda          9.10
+30: S. Singh           9.10
+31: A. Suri            9.09
+32: V. Chauhan         9.07
+33: S. Sharma          9.00
+34: M. Datt            9.00
+35: K. Krishna         9.00
+36: P. Mandil          8.95
+37: P. Sanjay          8.95
+38: P. Reddy           8.94
+39: D. Pradeep         8.93
+40: A. Jain            8.92
+41: R. Raj             8.89
+42: P. Praharsha       8.85
+43: A. Kumar           8.83
+44: P. Akash           8.78
+45: G. Arora           8.77
+46: T. Kopparty        8.74
+47: C. Krishna         8.74
+48: S. Jain            8.72
+49: K. Das             8.71
+50: A. Verma           8.69
+51: I. Sang            8.68
+52: A. Panigrahy       8.65
+53: R. Haldar          8.64
+54: V. Agarwal         8.61
+55: A. Jain            8.54
+56: K. C               8.50
+57: S. Priyadharsan    8.49
+58: A. Bhagwat         8.48
+59: A. Gupta           8.45
+60: P. Harshavardhan   8.40
+61: S. Bharath         8.32
+62: T. Harshitha       8.27
+63: A. Agarwal         8.26
+64: H. Narendra        8.18
+65: G. Talluri         8.13
+66: S. Kumar           8.10
+67: S. Praneeth        8.06
+68: M. Surya           8.04
+69: V. Praveen         8.02
+70: U. Umesh           7.98
+71: C. Reddy           7.97
+72: P. Singh           7.86
+73: S. Singh           7.84
+74: G. Niharika        7.81
+75: A. Sai             7.79
+76: V. Kumar           7.76
+77: V. Minz            7.74
+78: D. Kumar           7.71
+79: G. Viswanadh       7.70
+80: P. Dhote           7.64
+81: V. Kulaharia       7.63
+82: P. Reddy           7.60
+83: M. Kumar           7.57
+84: A. Baruah          7.40
+85: T. Karthik         7.37
+86: K. Sudhir          7.29
+87: K. Reddy           7.04
+88: M. Kumar           7.03
+89: K. Chandra         6.85
+90: G. Anirudh         6.80
+91: M. Harish          6.56
+92: V. Tomar           6.54
+93: B. Sanjith         6.48

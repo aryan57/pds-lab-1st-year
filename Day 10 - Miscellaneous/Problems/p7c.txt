@@ -1,0 +1,28 @@
+p7c
+Check bracketing using stack
+User gives as input a math expression into a stack S (implemented by linked list). The expression possibly contains 1st/2nd/3rd brackets.  Check whether the bracketing is valid or not.
+
+Examples:
+Enter a math expression ('$' to end): 1+2 $
+Valid bracketing.
+
+Enter a math expression ('$' to end): (a-(b-(c-d)) * e) $
+Valid bracketing.
+
+Enter a math expression ('$' to end): (a-(b-(c-d)) * e)) $
+Invalid bracketing.
+
+Enter a math expression ('$' to end): (a-(b-(c-d) * e) $
+Invalid bracketing.
+
+Enter a math expression ('$' to end): [9+(5.5/(2.3)^(6*(x+y)))]^{{3+(x+(5.2(1.1)))} / 1.5 * (2.1/(0.33))} $
+Valid bracketing.
+
+Enter a math expression ('$' to end): [9+(5.5/(2.3)^(6*(x+y))]^{{3+(x+(5.2(1.1)))} / 1.5 * (2.1/(0.33))} $
+Invalid bracketing.
+
+Enter a math expression ('$' to end): ([1-[2-3] * 4[6 (1+2)] / (3+0)]) * {{1+2}} - (((1+2)/3)) $
+Valid bracketing.
+
+Enter a math expression ('$' to end): ([1-[2-3] * 4[6 (1+2)] / (3+0))] * {{1+2}} - (((1+2)/3)) $
+Invalid bracketing.
