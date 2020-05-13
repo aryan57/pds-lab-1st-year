@@ -1,0 +1,130 @@
+13-Aug-2019 | PDS Lab | Sec 18 | Autumn 2019-20
+
+CONDITIONALS & LOOPS
+=================================================================================================
+TUTORIALS
+
+t2a (Largest element).
+User gives as input there integers. 
+Write a program to find the largest among them and print it on the terminal.
+
+t2b (GCD). 
+Write a program that takes two positive integers a and b as input, 
+computes their GCD, and prints the result on the terminal.
+
+t2c (sin(x) expansion). 
+Take an angle angle x in degree and a positive integer n as input.
+Compute the expansion of:
+sinx =  x - x^3/3! + x^5/5! - ... up to n terms and print the value.
+
+=================================================================================================
+PROBLEMS
+
+Note:
+The student should write in the beginning of every C file the following as comment lines:
+Name
+Roll Number
+Machine Number
+=================================================================================================
+
+p2a (Triangle inequality).
+User gives as input three positive real numbers. 
+Write a program to check whether they satisfy triangle inequality. 
+If not, print the reason on the terminal.
+Otherwise, compute the three angles of the resultant triangle and 
+print their values in degree on the terminal.
+(Use the cosine rule: a^2 = b^2 + c^2 - 2b.c.cos A)
+(The name of your C file should be p2a.c)
+Examples:
+
+Enter three numbers: 3 4 5
+Angles (in degree):  36.87,  53.13,  90.00
+
+Enter three numbers: 3 4 8
+Triangle not possible, as 3.000000 + 4.000000 <= 8.000000
+=================================================================================================
+
+p2b (Leap year).
+
+Given a year as input, your program should print whether it is a leap year.
+You can use if, else-if, etc. in your program.
+(The name of your C file should be p2b.c)
+
+Note: A year is a leap year if it is divisible by 4 but not by 100.
+However, if it is divisible by 400, then also it is a leap year.
+
+$ ./a.out 
+Enter the year: 2018
+Year 2018 is not a leap year.
+
+$ ./a.out
+Enter the year: 2020
+Year 2020 is a leap year.
+
+$ ./a.out
+Enter the year: 2000
+Year 2000 is a leap year.
+
+$ ./a.out
+Enter the year: 2100
+Year 2100 is not a leap year.
+
+=================================================================================================
+p2c (Quadratic equation).
+Write a program to find the real or complex roots of ax^2 + bx + c = 0,
+where a, b, c are real and given as input by the user.
+(The name of your C file should be p2c.c)
+
+Enter a, b, c in order: 1 2 3
+Complex roots = -1.00+1.41i, -1.00-1.41i
+
+Enter a, b, c in order: 1 3 2
+Real roots = -1.00, -2.00
+
+Enter a, b, c in order: 1 0 2
+Complex roots = -0.00+1.41i, -0.00-1.41i
+
+Enter a, b, c in order: 1 0 -2
+Real roots = 1.41, -1.41
+
+=================================================================================================
+p2d (Limiting value) Compute the values of n!/n^n for n=1 to 50 and 
+print them on the terminal up to 10th decimal place (use %12.10f).
+You should use "for loop" or "while loop".
+You should not use any function from math library.
+(The name of your C file should be p2d.c)
+
+n= 1: 1.0000000000
+n= 2: 0.5000000000
+n= 3: 0.2222222222
+n= 4: 0.0937500000
+n= 5: 0.0384000000
+n= 6: 0.0154320988
+n= 7: 0.0061198990
+n= 8: 0.0024032593
+n= 9: 0.0009366567
+n=10: 0.0003628800
+n=11: 0.0001399059
+n=12: 0.0000537232
+n=13: 0.0000205597
+n=14: 0.0000078454
+n=15: 0.0000029863
+n=16: 0.0000011342
+n=17: 0.0000004300
+n=18: 0.0000001627
+n=19: 0.0000000615
+n=20: 0.0000000232
+n=21: 0.0000000087
+n=22: 0.0000000033
+n=23: 0.0000000012
+n=24: 0.0000000005
+n=25: 0.0000000002
+n=26: 0.0000000001
+n=27: 0.0000000000
+n=28: 0.0000000000
+n=29: 0.0000000000
+n=30: 0.0000000000
+...
+n=50: 0.0000000000
+
+=================================================================================================

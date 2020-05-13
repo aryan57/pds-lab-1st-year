@@ -1,0 +1,16 @@
+p2a (Triangle inequality).
+User gives as input three positive real numbers.
+Write a program to check whether they satisfy triangle inequality.
+If not, print the reason on the terminal.
+Otherwise, compute the three angles of the resultant triangle and
+print their values in degree on the terminal.
+(Use the cosine rule: a^2 = b^2 + c^2 - 2b.c.cos A)
+(The name of your C file should be p2a.c)
+
+Examples:
+
+Enter three numbers: 3 4 5
+Angles (in degree):  36.87,  53.13,  90.00
+
+Enter three numbers: 3 4 8
+Triangle not possible, as 3.000000 + 4.000000 <= 8.000000

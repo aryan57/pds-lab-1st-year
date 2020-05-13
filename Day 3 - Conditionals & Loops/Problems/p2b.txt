@@ -1,0 +1,22 @@
+p2b (Leap year).
+Given a year as input, your program should print whether it is a leap year. You can use if, else-if, etc. in your program.
+(The name of your C file should be p2b.c)
+
+Note: A year is a leap year if it is divisible by 4 but not by 100.
+However, if it is divisible by 400, then also it is a leap year.
+
+$ ./a.out
+Enter the year: 2018
+Year 2018 is not a leap year.
+
+$ ./a.out
+Enter the year: 2020
+Year 2020 is a leap year.
+
+$ ./a.out
+Enter the year: 2000
+Year 2000 is a leap year.
+
+$ ./a.out
+Enter the year: 2100
+Year 2100 is not a leap year.
