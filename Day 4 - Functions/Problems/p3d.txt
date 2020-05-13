@@ -1,0 +1,58 @@
+Definite integral by trapezoidal rule.
+Write a function double y(double x, int p) that takes as input the values of x and p, computes the value of
+
+y(x) = 1 + 1/(1+x) + 1/(2+x^2) + ... + 1/(p+x^p),
+
+and returns that value to the caller function, integral().
+
+The function double integral(double a, double b, double n, int p) takes as input the domain [a,b] of the function y along with the values of n and p in order to compute the integral y.dx in [a,b] using trapezoidal rule.
+The computed value y.dx is returned by integral() to main(), which calls it and prints the value on the terminal.
+
+The values of a, b, and p are taken as input from the user in main(), and n is taken as 100 times the difference between a and b.
+Assume that a and p are non-negative.
+
+See trapezoidal rule in the attached p3d.pdf.
+
+Examples:
+
+$ ./a.out
+
+Enter the domain limits a and b: 0 10
+Enter the power p: 0
+Value of the integral = 10.000000
+
+$ ./a.out
+
+Enter the domain limits a and b: 0 1
+Enter the power p: 1
+Value of the integral = 1.693153
+
+$ ./a.out
+
+Enter the domain limits a and b: 0 10
+Enter the power p: 1
+Value of the integral = 12.397904
+
+$ ./a.out
+
+Enter the domain limits a and b: 0 1
+Enter the power p: 2
+Value of the integral = 2.128361
+
+$ ./a.out
+
+Enter the domain limits a and b: 0 10
+Enter the power p: 2
+Value of the integral = 13.409283
+
+$ ./a.out
+
+Enter the domain limits a and b: 0 1
+Enter the power p: 5
+Value of the integral = 2.871176
+
+$ ./a.out
+
+Enter the domain limits a and b: 0 10
+Enter the power p: 5
+Value of the integral = 14.672927

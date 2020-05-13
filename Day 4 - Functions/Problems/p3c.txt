@@ -1,0 +1,13 @@
+Farthest random point
+Write a program in which the main() takes as input the values of two integer variables (xm and ym), and for each integer j in [1,ym], generates a random number i in the interval [1,xm], and prints the point (i,j) on the terminal as "+".
+In addition, the point C((int)(xm/2), (int)(ym/2)) should also be printed as "X".
+Assume that a point (i,j) means line j and column i of the terminal.
+
+While generating each point P(i,j), the main() has to call a function:
+float farthest(int i, int j, float d), which will check whether P is farther from C w.r.t. the current farthest (by comparing the distance CP with the current farthest distance, d).
+Accordingly, d will be updated and finally printed from main().
+The coordinates of the farthest point should also be printed at the end.
+
+You can use four global variables for storing the coordinates of C and those of the farthest point.
+
+You also need to write and use an appropriate function print_point() to print C and each random point.

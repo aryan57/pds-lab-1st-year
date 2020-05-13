@@ -1,0 +1,15 @@
+Largest exponent
+Write a function that takes two natural numbers, x and n, as input,
+computes the value of x raised to the power n, and returns that value to the caller function.
+Use this function to determine and print the value of the largest integer n such that s^n < t,
+where s and t are two natural numbers supplied by the user in main().
+
+You cannot use any function from math library.
+
+
+Examples:
+Enter s and t: 2 25
+Largest n = 4
+
+Enter s and t: 3 25
+Largest n = 2

@@ -1,0 +1,12 @@
+Linear interpolation
+There are two scales, S and T.
+The user supplies their lower and upper limits in main().
+He also gives as input a measurement in one scale and the name of that scale.
+Write a function that computes the corresponding value in the other scale and returns it to main().
+Print the value from main().
+
+Example:
+Enter the lower and the upper limits of S: 10 150
+Enter the lower and the upper limits of T: 50 100
+Enter a value and its scale: 95 S
+Equivalent value in T = 80.357142
