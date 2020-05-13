@@ -1,0 +1,12 @@
+p1b.
+Write a program that takes as input the (x,y) coordinates of two points p and q in floating point.
+Then it finds the area of the semicircle with pq as the diameter and prints the result on the terminal.
+(The name of your C file should be p1b.c)
+
+You should include math library for square root function as follows:
+
+#include <stdio.h>
+#include <math.h>
+
+Compilation command:
+gcc p1b.c -lm

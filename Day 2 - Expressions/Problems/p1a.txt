@@ -1,0 +1,7 @@
+p1a. Write a program that takes as input the values of five floating-point variables (a, b, c, d, e)
+and executes the following:
+i) calculate the values of the expressions (a/b)*c and (a*b)/c;
+ii) stores the above values in d and e, respectively;
+iii) prints the values of d and e on the terminal.
+Assume that c is non-zero.
+(The name of your C file should be p1a.c)
