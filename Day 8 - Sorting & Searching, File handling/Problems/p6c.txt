@@ -1,0 +1,17 @@
+p6c
+Random disc drawing
+Draw n (= user input, max 150) black discs with random centers and of radius 19 each in an image file named p6c.pbm.
+The image height and width should be 401 and 601 respectively.
+All discs should lie within the image.
+
+Note:
+
+A point belongs to a disk if the square of its distance from the disk-center is at most r2+r.
+You can refer to p3c.c for random point generation.
+Examples:
+
+p6c-n10-seed1.pbm
+p6c-n10-seed2.pbm
+p6c-n50-seed1.pbm
+p6c-n50-seed2.pbm
+p6c-n150-seed1.pbm

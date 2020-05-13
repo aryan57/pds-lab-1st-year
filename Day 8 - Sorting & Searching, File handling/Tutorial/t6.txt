@@ -1,0 +1,25 @@
+223-Oct-2019 | PDS Lab | Sec 18 | Autumn 2019-20
+
+Sorting and Searching, File handling
+=================================================================================================
+TUTORIALS
+
+t6a. [Binary Search]
+Dynamically allocate an integer array of n elements and fill up the array with user's input.
+Sort the array in nondecreasing order and then search an element x in the array.
+
+t6b. [File reading and writing]
+Your task is to join two files (f1.txt and f2.txt) by their columns and store them in a new file (f3.txt).
+The 1st file contains n integers and the 2nd file contains n names.
+The value of n is available in the 1st line of each file.
+
+t6c. [Circle drawing to pbm]
+Draw a black disc of radius r and store it in an image file named t6c.pbm.
+
+Note: 
+1. A point (x,y) belongs to a black disk if the square of its distance from the center is at most r*r+r.
+2. A pbm file is basically a binary image file.
+Its 1st line contains "P1" and 2nd line contains the number of columns (n) followed by number of rows (m).
+Then there are m lines, each having n characters that are either 0 (means white) or 1 (means black).
+
+=================================================================================================

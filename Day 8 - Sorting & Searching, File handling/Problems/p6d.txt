@@ -1,0 +1,13 @@
+p6d
+Random disc drawing with constraints
+Extend p6c.c to create discs in an image file named p6d.pbm, satisfying the following constraints:
+
+All discs are distinct and lie within the image.
+No two discs intersect each other.
+Examples:
+
+p6d-n10-seed1.pbm
+p6d-n10-seed2.pbm
+p6d-n50-seed1.pbm
+p6d-n50-seed2.pbm
+p6d-n150-seed1.pbm

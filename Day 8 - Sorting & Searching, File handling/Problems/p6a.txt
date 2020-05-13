@@ -1,0 +1,236 @@
+p6a
+All your codes (p6a--p6d) should be modular and should contain coder-defined functions for easily understanding.
+Unclear codes will not get full marks.
+=================================================================================================
+Sorting and Searching in an Array of Structure
+Define a structure named "student" with the following fields:
+char name[15], char surname[15], and float cgpa.
+Read from main() an input text file ("stu1.txt" or "stu2.txt") in which the 1st line
+contains the number (n) of students and the remaining lines contain the student details.
+Declare an array, dynamically allocate its space for n students, and fill it up with the student details from the text file.
+Sort the array s[] in increasing order of cgpa.
+Using Binary Search, find and print the students with cgpa in the following intervals:
+
+[5.0, 7.5]
+[7.5, 8.5]
+[8.5,10.0]
+
+Note: You can extend your last-day code p5a.c to do this.
+
+Examples:
+./a.out < stu1.txt   
+
+Sorted by CGPA:
+B. Sanjith         6.48
+K. Reddy           7.04
+V. Kumar           7.76
+S. Kumar           9.12
+A. Panigrahi       9.83
+
+Students with CGPA in [5.00, 7.50]:
+B. Sanjith         6.48
+K. Reddy           7.04
+
+Students with CGPA in [7.50, 8.50]:
+V. Kumar           7.76
+
+Students with CGPA in [8.50, 10.00]:
+S. Kumar           9.12
+A. Panigrahi       9.83
+
+./a.out < stu1.txt
+
+Sorted by CGPA:
+B. Sanjith         6.48
+V. Tomar           6.54
+M. Harish          6.56
+G. Anirudh         6.80
+K. Chandra         6.85
+M. Kumar           7.03
+K. Reddy           7.04
+K. Sudhir          7.29
+T. Karthik         7.37
+A. Baruah          7.40
+M. Kumar           7.57
+P. Reddy           7.60
+V. Kulaharia       7.63
+P. Dhote           7.64
+G. Viswanadh       7.70
+D. Kumar           7.71
+V. Minz            7.74
+V. Kumar           7.76
+A. Sai             7.79
+G. Niharika        7.81
+S. Singh           7.84
+P. Singh           7.86
+C. Reddy           7.97
+U. Umesh           7.98
+V. Praveen         8.02
+M. Surya           8.04
+S. Praneeth        8.06
+S. Kumar           8.10
+G. Talluri         8.13
+H. Narendra        8.18
+A. Agarwal         8.26
+T. Harshitha       8.27
+S. Bharath         8.32
+P. Harshavardhan   8.40
+A. Gupta           8.45
+A. Bhagwat         8.48
+S. Priyadharsan    8.49
+K. C               8.50
+A. Jain            8.54
+V. Agarwal         8.61
+R. Haldar          8.64
+A. Panigrahy       8.65
+I. Sang            8.68
+A. Verma           8.69
+K. Das             8.71
+S. Jain            8.72
+C. Krishna         8.74
+T. Kopparty        8.74
+G. Arora           8.77
+P. Akash           8.78
+A. Kumar           8.83
+P. Praharsha       8.85
+R. Raj             8.89
+A. Jain            8.92
+D. Pradeep         8.93
+P. Reddy           8.94
+P. Sanjay          8.95
+P. Mandil          8.95
+K. Krishna         9.00
+M. Datt            9.00
+S. Sharma          9.00
+V. Chauhan         9.07
+A. Suri            9.09
+S. Singh           9.10
+P. Chanda          9.10
+R. Bhaskaran       9.10
+S. Kumar           9.12
+S. Rishi           9.16
+K. Goel            9.17
+A. Srivastava      9.21
+Y. Manisha         9.22
+S. Mandal          9.25
+P. Shankhdhar      9.30
+S. Patro           9.31
+D. Agrawal         9.35
+S. Pal             9.38
+S. Srivastava      9.40
+S. Bhat            9.41
+K. Raj             9.42
+M. Tharun          9.42
+M. Roy             9.42
+S. Ghosh           9.47
+G. Sastry          9.48
+Y. Agrawal         9.52
+V. Shah            9.53
+A. Banerjee        9.53
+S. Mundra          9.56
+R. Dutt            9.60
+B. Anurag          9.62
+M. Sengupta        9.62
+K. Aggarwal        9.66
+A. Ghoshal         9.76
+A. Panigrahi       9.83
+
+Students with CGPA in [5.00, 7.50]:
+B. Sanjith         6.48
+V. Tomar           6.54
+M. Harish          6.56
+G. Anirudh         6.80
+K. Chandra         6.85
+M. Kumar           7.03
+K. Reddy           7.04
+K. Sudhir          7.29
+T. Karthik         7.37
+A. Baruah          7.40
+
+Students with CGPA in [7.50, 8.50]:
+M. Kumar           7.57
+P. Reddy           7.60
+V. Kulaharia       7.63
+P. Dhote           7.64
+G. Viswanadh       7.70
+D. Kumar           7.71
+V. Minz            7.74
+V. Kumar           7.76
+A. Sai             7.79
+G. Niharika        7.81
+S. Singh           7.84
+P. Singh           7.86
+C. Reddy           7.97
+U. Umesh           7.98
+V. Praveen         8.02
+M. Surya           8.04
+S. Praneeth        8.06
+S. Kumar           8.10
+G. Talluri         8.13
+H. Narendra        8.18
+A. Agarwal         8.26
+T. Harshitha       8.27
+S. Bharath         8.32
+P. Harshavardhan   8.40
+A. Gupta           8.45
+A. Bhagwat         8.48
+S. Priyadharsan    8.49
+K. C               8.50
+
+Students with CGPA in [8.50, 10.00]:
+K. C               8.50
+A. Jain            8.54
+V. Agarwal         8.61
+R. Haldar          8.64
+A. Panigrahy       8.65
+I. Sang            8.68
+A. Verma           8.69
+K. Das             8.71
+S. Jain            8.72
+C. Krishna         8.74
+T. Kopparty        8.74
+G. Arora           8.77
+P. Akash           8.78
+A. Kumar           8.83
+P. Praharsha       8.85
+R. Raj             8.89
+A. Jain            8.92
+D. Pradeep         8.93
+P. Reddy           8.94
+P. Sanjay          8.95
+P. Mandil          8.95
+K. Krishna         9.00
+M. Datt            9.00
+S. Sharma          9.00
+V. Chauhan         9.07
+A. Suri            9.09
+S. Singh           9.10
+P. Chanda          9.10
+R. Bhaskaran       9.10
+S. Kumar           9.12
+S. Rishi           9.16
+K. Goel            9.17
+A. Srivastava      9.21
+Y. Manisha         9.22
+S. Mandal          9.25
+P. Shankhdhar      9.30
+S. Patro           9.31
+D. Agrawal         9.35
+S. Pal             9.38
+S. Srivastava      9.40
+S. Bhat            9.41
+K. Raj             9.42
+M. Tharun          9.42
+M. Roy             9.42
+S. Ghosh           9.47
+G. Sastry          9.48
+Y. Agrawal         9.52
+V. Shah            9.53
+A. Banerjee        9.53
+S. Mundra          9.56
+R. Dutt            9.60
+B. Anurag          9.62
+M. Sengupta        9.62
+K. Aggarwal        9.66
+A. Ghoshal         9.76
+A. Panigrahi       9.83
