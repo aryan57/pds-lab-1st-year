@@ -1,0 +1,129 @@
+p5a
+Bubble Sort of Array of Structure
+Define a structure named "student" with the following fields:
+char name[15], char surname[15], and float cgpa.
+Read from main() a file named "stu.txt" in which the 1st line contains the number (n) of students
+and the remaining lines contain the student details.
+Declare an array s[], dynamically allocate the space for n students, and fill it up with the student details from stu.txt.
+Sort the array s[] in decreasing order of cgpa.
+Print the sorted result and then print the frequency of students for cgpa intervals [9, 10], [8, 9), [7, 8), [6, 7), [5, 6).
+
+Example:
+
+$ ./a.out < stu1.txt
+
+Sorted cgpa:
+S. Kumar            9.12
+A. Panigrahi        8.00
+V. Kumar            7.76
+K. Reddy            7.04
+B. Sanjith          6.48
+
+[9-10]: X
+[8- 9]: X
+[7- 8]: XX
+[6- 7]: X
+[5- 6]:
+
+$ ./a.out < stu2.txt
+
+Sorted cgpa:
+A. Panigrahi        9.83
+A. Ghoshal          9.76
+K. Aggarwal         9.66
+B. Anurag           9.62
+M. Sengupta         9.62
+R. Dutt             9.60
+S. Mundra           9.56
+V. Shah             9.53
+A. Banerjee         9.53
+Y. Agrawal          9.52
+G. Sastry           9.48
+S. Ghosh            9.47
+K. Raj              9.42
+M. Tharun           9.42
+M. Roy              9.42
+S. Bhat             9.41
+S. Srivastava       9.40
+S. Pal              9.38
+D. Agrawal          9.35
+S. Patro            9.31
+P. Shankhdhar       9.30
+S. Mandal           9.25
+Y. Manisha          9.22
+A. Srivastava       9.21
+K. Goel             9.17
+S. Rishi            9.16
+S. Kumar            9.12
+S. Singh            9.10
+P. Chanda           9.10
+R. Bhaskaran        9.10
+A. Suri             9.09
+V. Chauhan          9.07
+K. Krishna          9.00
+M. Datt             9.00
+S. Sharma           9.00
+P. Sanjay           8.95
+P. Mandil           8.95
+P. Reddy            8.94
+D. Pradeep          8.93
+A. Jain             8.92
+R. Raj              8.89
+P. Praharsha        8.85
+A. Kumar            8.83
+P. Akash            8.78
+G. Arora            8.77
+C. Krishna          8.74
+T. Kopparty         8.74
+S. Jain             8.72
+K. Das              8.71
+A. Verma            8.69
+I. Sang             8.68
+A. Panigrahy        8.65
+R. Haldar           8.64
+V. Agarwal          8.61
+A. Jain             8.54
+K. C                8.50
+S. Priyadharsan     8.49
+A. Bhagwat          8.48
+A. Gupta            8.45
+P. Harshavardhan    8.40
+S. Bharath          8.32
+T. Harshitha        8.27
+A. Agarwal          8.26
+H. Narendra         8.18
+G. Talluri          8.13
+S. Kumar            8.10
+S. Praneeth         8.06
+M. Surya            8.04
+V. Praveen          8.02
+U. Umesh            7.98
+C. Reddy            7.97
+P. Singh            7.86
+S. Singh            7.84
+G. Niharika         7.81
+A. Sai              7.79
+V. Kumar            7.76
+V. Minz             7.74
+D. Kumar            7.71
+G. Viswanadh        7.70
+P. Dhote            7.64
+V. Kulaharia        7.63
+P. Reddy            7.60
+M. Kumar            7.57
+A. Baruah           7.40
+T. Karthik          7.37
+K. Sudhir           7.29
+K. Reddy            7.04
+M. Kumar            7.03
+K. Chandra          6.85
+G. Anirudh          6.80
+M. Harish           6.56
+V. Tomar            6.54
+B. Sanjith          6.48
+
+[9-10]: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+[8- 9]: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+[7- 8]: XXXXXXXXXXXXXXXXXXX
+[6- 7]: XXXXX
+[5- 6]:

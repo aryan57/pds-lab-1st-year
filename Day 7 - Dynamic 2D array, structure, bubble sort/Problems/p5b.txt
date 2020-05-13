@@ -1,0 +1,47 @@
+p5b
+Dynamic memory allocation and matrix multiplication
+Your program has to compute the multiplication of two matrices a and b of dimensions m-by-n and n-by-p respectively.
+For this, declare in main() three matrices: a, b, c.
+Take as input the dimensions of a and b, and dynamically allocate the memory spaces for a, b, c.
+Compute the product ab, store it in c, and print c on the terminal.
+You should write as many functions as needed in order to make your code neat and easily comprehensible.
+Assume that the elements of the matrices are integers.
+
+Examples:
+
+Enter #rows & #columns of 1st matrix: 1 1
+Enter #columns of 2nd matrix: 1
+Enter Matrix 1:
+2
+Enter Matrix 2:
+3
+Output matrix:
+  6
+
+Enter #rows & #columns of 1st matrix: 1 3
+Enter #columns of 2nd matrix: 1
+Enter Matrix 1:
+3 5 7
+Enter Matrix 2:
+1
+0
+-1
+Output matrix:
+ -4
+
+Enter #rows & #columns of 1st matrix: 3 5
+Enter #columns of 2nd matrix: 2
+Enter Matrix 1:
+1 0 1 1 0
+1 1 0 0 1
+0 0 1 1 0
+Enter Matrix 2:
+2 1
+3 5
+1 0
+2 3
+1 4
+Output matrix:
+  5   4
+  6  10
+  3   3

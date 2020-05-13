@@ -1,0 +1,18 @@
+15-Oct-2019 | PDS Lab | Sec 18 | Autumn 2019-20
+
+Bubble Sort, Array of Structure, Dynamic 2D Arrays
+=================================================================================================
+TUTORIALS
+
+t5a. [Bubble Sort]
+Dynamically allocate an integer array of n elements and fill up the array with user's input.
+Sort the array in nondecreasing order and then print its elements by their values and horizontal bars.
+Write individual functions for reading input elements, sorting, and printing.
+
+t5b. Swapping two records with the same structure -- using content swap
+
+t5c. Swapping two records with the same structure -- using address swap
+
+t5d. Dynamic memory allocation of 2D array and matrix transposing
+
+=================================================================================================
